@@ -8,7 +8,7 @@
     }
     
     //Check whether the user agent is a mobile device.
-    $_SESSION["userAgent"]=Library::getUserAgent();
+    $_SESSION["userAgent"]=Library::getUserAgentProfile();
     
     if($_SESSION["userAgent"]->isMobile()){
         //Retrieve posted JSON object

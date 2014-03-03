@@ -190,16 +190,16 @@
 		73A7E91C18B05B9900054B2A /* CordanoSportsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CordanoSportsTests-Info.plist"; sourceTree = "<group>"; };
 		73A7E91E18B05B9900054B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73A7E92018B05B9900054B2A /* CordanoSportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CordanoSportsTests.m; sourceTree = "<group>"; };
-		73A7ECD818B0B0C500054B2A /* HypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypeViewController.h; sourceTree = "<group>"; };
-		73A7ECD918B0B0C500054B2A /* HypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypeViewController.m; sourceTree = "<group>"; };
-		73A7ECDB18B0B19100054B2A /* LeaguesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaguesViewController.h; sourceTree = "<group>"; };
-		73A7ECDC18B0B19100054B2A /* LeaguesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaguesViewController.m; sourceTree = "<group>"; };
-		73A7ECDE18B0B1C500054B2A /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
-		73A7ECDF18B0B1C500054B2A /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
-		73A7ECE118B0B21C00054B2A /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
-		73A7ECE218B0B21C00054B2A /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
-		73A7EE6618B342EB00054B2A /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
-		73A7EE6718B342EB00054B2A /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		73A7ECD818B0B0C500054B2A /* HypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypeViewController.h; path = Hype/HypeViewController.h; sourceTree = "<group>"; };
+		73A7ECD918B0B0C500054B2A /* HypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypeViewController.m; path = Hype/HypeViewController.m; sourceTree = "<group>"; };
+		73A7ECDB18B0B19100054B2A /* LeaguesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaguesViewController.h; path = Leagues/LeaguesViewController.h; sourceTree = "<group>"; };
+		73A7ECDC18B0B19100054B2A /* LeaguesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaguesViewController.m; path = Leagues/LeaguesViewController.m; sourceTree = "<group>"; };
+		73A7ECDE18B0B1C500054B2A /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamsViewController.h; path = Teams/TeamsViewController.h; sourceTree = "<group>"; };
+		73A7ECDF18B0B1C500054B2A /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamsViewController.m; path = Teams/TeamsViewController.m; sourceTree = "<group>"; };
+		73A7ECE118B0B21C00054B2A /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayersViewController.h; path = Players/PlayersViewController.h; sourceTree = "<group>"; };
+		73A7ECE218B0B21C00054B2A /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayersViewController.m; path = Players/PlayersViewController.m; sourceTree = "<group>"; };
+		73A7EE6618B342EB00054B2A /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamesViewController.h; path = Games/GamesViewController.h; sourceTree = "<group>"; };
+		73A7EE6718B342EB00054B2A /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamesViewController.m; path = Games/GamesViewController.m; sourceTree = "<group>"; };
 		73A7EFEA18B4960F00054B2A /* 003.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.JPG; sourceTree = "<group>"; };
 		73A7EFEB18B4960F00054B2A /* 004.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.JPG; sourceTree = "<group>"; };
 		73A7EFEC18B4960F00054B2A /* 027.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 027.JPG; sourceTree = "<group>"; };
@@ -242,64 +242,64 @@
 		73A7F01118B4960F00054B2A /* user role.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user role.PNG"; sourceTree = "<group>"; };
 		73A7F01218B4960F00054B2A /* welcome.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.PNG; sourceTree = "<group>"; };
 		73A7F01318B4960F00054B2A /* yahoo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahoo.PNG; sourceTree = "<group>"; };
-		73A7F9F418BC380900054B2A /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalScroller.h; path = ../../Snippets/BlueLibrary/HorizontalScroller.h; sourceTree = "<group>"; };
-		73A7F9F518BC380900054B2A /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalScroller.m; path = ../../Snippets/BlueLibrary/HorizontalScroller.m; sourceTree = "<group>"; };
-		73A7F9F618BC380900054B2A /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPClient.h; path = ../../Snippets/BlueLibrary/HTTPClient.h; sourceTree = "<group>"; };
-		73A7F9F718BC380900054B2A /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPClient.m; path = ../../Snippets/BlueLibrary/HTTPClient.m; sourceTree = "<group>"; };
-		73A7F9F818BC380900054B2A /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibraryAPI.h; path = ../../Snippets/BlueLibrary/LibraryAPI.h; sourceTree = "<group>"; };
-		73A7F9F918BC380900054B2A /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibraryAPI.m; path = ../../Snippets/BlueLibrary/LibraryAPI.m; sourceTree = "<group>"; };
-		73A7F9FB18BC380900054B2A /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersistencyManager.h; path = ../../Snippets/BlueLibrary/PersistencyManager.h; sourceTree = "<group>"; };
-		73A7F9FC18BC380900054B2A /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistencyManager.m; path = ../../Snippets/BlueLibrary/PersistencyManager.m; sourceTree = "<group>"; };
-		73A7FA1218BD897300054B2A /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
-		73A7FA1318BD897300054B2A /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
-		73A7FA1518BD9DB000054B2A /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
-		73A7FA1618BD9DB000054B2A /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
-		73A7FA1818BDA28A00054B2A /* LeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueViewController.h; sourceTree = "<group>"; };
-		73A7FA1918BDA28A00054B2A /* LeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueViewController.m; sourceTree = "<group>"; };
-		73A7FA2018BDAAF100054B2A /* InGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGame.h; sourceTree = "<group>"; };
-		73A7FA2118BDAAF100054B2A /* InGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGame.m; sourceTree = "<group>"; };
-		73A7FA2318BDAB0E00054B2A /* GameDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameDay.h; path = ../GameDay.h; sourceTree = "<group>"; };
-		73A7FA2418BDAB0E00054B2A /* GameDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameDay.m; path = ../GameDay.m; sourceTree = "<group>"; };
-		73A7FA2618BDAB2800054B2A /* GameCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCreator.h; path = ../GameCreator.h; sourceTree = "<group>"; };
-		73A7FA2718BDAB2800054B2A /* GameCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCreator.m; path = ../GameCreator.m; sourceTree = "<group>"; };
-		73A7FA2918BDAB4700054B2A /* TrophyRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrophyRoom.h; path = ../TrophyRoom.h; sourceTree = "<group>"; };
-		73A7FA2A18BDAB4700054B2A /* TrophyRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrophyRoom.m; path = ../TrophyRoom.m; sourceTree = "<group>"; };
-		73A7FA2C18BDAB6800054B2A /* PlayerDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDeveloper.h; sourceTree = "<group>"; };
-		73A7FA2D18BDAB6800054B2A /* PlayerDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDeveloper.m; sourceTree = "<group>"; };
-		73A7FA2F18BDAB8300054B2A /* LockerRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockerRoom.h; path = ../LockerRoom.h; sourceTree = "<group>"; };
-		73A7FA3018BDAB8300054B2A /* LockerRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LockerRoom.m; path = ../LockerRoom.m; sourceTree = "<group>"; };
-		73A7FA3218BDABA000054B2A /* TeamBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamBuilder.h; sourceTree = "<group>"; };
-		73A7FA3318BDABA000054B2A /* TeamBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamBuilder.m; sourceTree = "<group>"; };
-		73A7FA3518BDABB900054B2A /* LeagueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueManager.h; sourceTree = "<group>"; };
-		73A7FA3618BDABB900054B2A /* LeagueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueManager.m; sourceTree = "<group>"; };
-		73A7FA3818BDABC800054B2A /* BoardRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardRoom.h; sourceTree = "<group>"; };
-		73A7FA3918BDABC800054B2A /* BoardRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardRoom.m; sourceTree = "<group>"; };
+		73A7F9F418BC380900054B2A /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalScroller.h; path = Navigation/HorizontalScroller.h; sourceTree = "<group>"; };
+		73A7F9F518BC380900054B2A /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalScroller.m; path = Navigation/HorizontalScroller.m; sourceTree = "<group>"; };
+		73A7F9F618BC380900054B2A /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPClient.h; path = API/HTTPClient.h; sourceTree = "<group>"; };
+		73A7F9F718BC380900054B2A /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPClient.m; path = API/HTTPClient.m; sourceTree = "<group>"; };
+		73A7F9F818BC380900054B2A /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibraryAPI.h; path = API/LibraryAPI.h; sourceTree = "<group>"; };
+		73A7F9F918BC380900054B2A /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibraryAPI.m; path = API/LibraryAPI.m; sourceTree = "<group>"; };
+		73A7F9FB18BC380900054B2A /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersistencyManager.h; path = API/PersistencyManager.h; sourceTree = "<group>"; };
+		73A7F9FC18BC380900054B2A /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistencyManager.m; path = API/PersistencyManager.m; sourceTree = "<group>"; };
+		73A7FA1218BD897300054B2A /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerViewController.h; path = Players/PlayerViewController.h; sourceTree = "<group>"; };
+		73A7FA1318BD897300054B2A /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerViewController.m; path = Players/PlayerViewController.m; sourceTree = "<group>"; };
+		73A7FA1518BD9DB000054B2A /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamViewController.h; path = Teams/TeamViewController.h; sourceTree = "<group>"; };
+		73A7FA1618BD9DB000054B2A /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamViewController.m; path = Teams/TeamViewController.m; sourceTree = "<group>"; };
+		73A7FA1818BDA28A00054B2A /* LeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeagueViewController.h; path = Leagues/LeagueViewController.h; sourceTree = "<group>"; };
+		73A7FA1918BDA28A00054B2A /* LeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeagueViewController.m; path = Leagues/LeagueViewController.m; sourceTree = "<group>"; };
+		73A7FA2018BDAAF100054B2A /* InGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InGame.h; path = Games/InGame.h; sourceTree = "<group>"; };
+		73A7FA2118BDAAF100054B2A /* InGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InGame.m; path = Games/InGame.m; sourceTree = "<group>"; };
+		73A7FA2318BDAB0E00054B2A /* GameDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameDay.h; path = Games/GameDay.h; sourceTree = "<group>"; };
+		73A7FA2418BDAB0E00054B2A /* GameDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameDay.m; path = Games/GameDay.m; sourceTree = "<group>"; };
+		73A7FA2618BDAB2800054B2A /* GameCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCreator.h; path = Games/GameCreator.h; sourceTree = "<group>"; };
+		73A7FA2718BDAB2800054B2A /* GameCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCreator.m; path = Games/GameCreator.m; sourceTree = "<group>"; };
+		73A7FA2918BDAB4700054B2A /* TrophyRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrophyRoom.h; path = Players/TrophyRoom.h; sourceTree = "<group>"; };
+		73A7FA2A18BDAB4700054B2A /* TrophyRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrophyRoom.m; path = Players/TrophyRoom.m; sourceTree = "<group>"; };
+		73A7FA2C18BDAB6800054B2A /* PlayerDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerDeveloper.h; path = Players/PlayerDeveloper.h; sourceTree = "<group>"; };
+		73A7FA2D18BDAB6800054B2A /* PlayerDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerDeveloper.m; path = Players/PlayerDeveloper.m; sourceTree = "<group>"; };
+		73A7FA2F18BDAB8300054B2A /* LockerRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockerRoom.h; path = Teams/LockerRoom.h; sourceTree = "<group>"; };
+		73A7FA3018BDAB8300054B2A /* LockerRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LockerRoom.m; path = Teams/LockerRoom.m; sourceTree = "<group>"; };
+		73A7FA3218BDABA000054B2A /* TeamBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamBuilder.h; path = Teams/TeamBuilder.h; sourceTree = "<group>"; };
+		73A7FA3318BDABA000054B2A /* TeamBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamBuilder.m; path = Teams/TeamBuilder.m; sourceTree = "<group>"; };
+		73A7FA3518BDABB900054B2A /* LeagueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeagueManager.h; path = Leagues/LeagueManager.h; sourceTree = "<group>"; };
+		73A7FA3618BDABB900054B2A /* LeagueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeagueManager.m; path = Leagues/LeagueManager.m; sourceTree = "<group>"; };
+		73A7FA3818BDABC800054B2A /* BoardRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardRoom.h; path = Leagues/BoardRoom.h; sourceTree = "<group>"; };
+		73A7FA3918BDABC800054B2A /* BoardRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoardRoom.m; path = Leagues/BoardRoom.m; sourceTree = "<group>"; };
 		73A7FA3C18BDC12A00054B2A /* close-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-icon.png"; sourceTree = "<group>"; };
 		73A7FA3D18BDC12A00054B2A /* close-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-icon@2x.png"; sourceTree = "<group>"; };
 		73A7FA3E18BDC12A00054B2A /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon.png"; sourceTree = "<group>"; };
 		73A7FA3F18BDC12A00054B2A /* search-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon@2x.png"; sourceTree = "<group>"; };
-		73A7FA4018BDC12A00054B2A /* SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBar.h; path = ../../Snippets/SSSearchBar/SearchBar.h; sourceTree = "<group>"; };
-		73A7FA4118BDC12A00054B2A /* SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBar.m; path = ../../Snippets/SSSearchBar/SearchBar.m; sourceTree = "<group>"; };
-		73A7FA4D18BDE68B00054B2A /* Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Numbers.h; sourceTree = "<group>"; };
-		73A7FA4E18BDE68B00054B2A /* Numbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Numbers.m; sourceTree = "<group>"; };
-		73A7FA5018BDE6AE00054B2A /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcase.h; sourceTree = "<group>"; };
-		73A7FA5118BDE6AE00054B2A /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcase.m; sourceTree = "<group>"; };
-		73A7FA5318BDE70600054B2A /* HypeMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypeMachine.h; sourceTree = "<group>"; };
-		73A7FA5418BDE70600054B2A /* HypeMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypeMachine.m; sourceTree = "<group>"; };
-		73A7FA5718BDE83C00054B2A /* FanbotSERP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanbotSERP.h; sourceTree = "<group>"; };
-		73A7FA5818BDE83C00054B2A /* FanbotSERP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanbotSERP.m; sourceTree = "<group>"; };
-		73A7FA5A18BDE84F00054B2A /* Lifestyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lifestyle.h; sourceTree = "<group>"; };
-		73A7FA5B18BDE84F00054B2A /* Lifestyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lifestyle.m; sourceTree = "<group>"; };
-		73A7FA5D18BDE87300054B2A /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
-		73A7FA5E18BDE87300054B2A /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		73A7FA6018BDE89400054B2A /* SportsBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsBook.h; sourceTree = "<group>"; };
-		73A7FA6118BDE89400054B2A /* SportsBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsBook.m; sourceTree = "<group>"; };
-		73A7FA6318BDE8A400054B2A /* HallofGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallofGame.h; sourceTree = "<group>"; };
-		73A7FA6418BDE8A400054B2A /* HallofGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallofGame.m; sourceTree = "<group>"; };
-		73A7FA6718BDEDDF00054B2A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../SWRevealViewController.h; sourceTree = "<group>"; };
-		73A7FA6818BDEDDF00054B2A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../SWRevealViewController.m; sourceTree = "<group>"; };
-		73A7FA6B18BDFC5A00054B2A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = "../../Snippets/SidebarDemo 3/SidebarDemo/SidebarViewController.h"; sourceTree = "<group>"; };
-		73A7FA6C18BDFC5A00054B2A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = "../../Snippets/SidebarDemo 3/SidebarDemo/SidebarViewController.m"; sourceTree = "<group>"; };
+		73A7FA4018BDC12A00054B2A /* SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBar.h; path = Navigation/SearchBar.h; sourceTree = "<group>"; };
+		73A7FA4118BDC12A00054B2A /* SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBar.m; path = Navigation/SearchBar.m; sourceTree = "<group>"; };
+		73A7FA4D18BDE68B00054B2A /* Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Numbers.h; path = Hype/Numbers.h; sourceTree = "<group>"; };
+		73A7FA4E18BDE68B00054B2A /* Numbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Numbers.m; path = Hype/Numbers.m; sourceTree = "<group>"; };
+		73A7FA5018BDE6AE00054B2A /* Showcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Showcase.h; path = Hype/Showcase.h; sourceTree = "<group>"; };
+		73A7FA5118BDE6AE00054B2A /* Showcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Showcase.m; path = Hype/Showcase.m; sourceTree = "<group>"; };
+		73A7FA5318BDE70600054B2A /* HypeMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypeMachine.h; path = Hype/HypeMachine.h; sourceTree = "<group>"; };
+		73A7FA5418BDE70600054B2A /* HypeMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypeMachine.m; path = Hype/HypeMachine.m; sourceTree = "<group>"; };
+		73A7FA5718BDE83C00054B2A /* FanbotSERP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FanbotSERP.h; path = Main/FanbotSERP.h; sourceTree = "<group>"; };
+		73A7FA5818BDE83C00054B2A /* FanbotSERP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FanbotSERP.m; path = Main/FanbotSERP.m; sourceTree = "<group>"; };
+		73A7FA5A18BDE84F00054B2A /* Lifestyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lifestyle.h; path = Main/Lifestyle.h; sourceTree = "<group>"; };
+		73A7FA5B18BDE84F00054B2A /* Lifestyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lifestyle.m; path = Main/Lifestyle.m; sourceTree = "<group>"; };
+		73A7FA5D18BDE87300054B2A /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountManager.h; path = Main/AccountManager.h; sourceTree = "<group>"; };
+		73A7FA5E18BDE87300054B2A /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountManager.m; path = Main/AccountManager.m; sourceTree = "<group>"; };
+		73A7FA6018BDE89400054B2A /* SportsBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SportsBook.h; path = Main/SportsBook.h; sourceTree = "<group>"; };
+		73A7FA6118BDE89400054B2A /* SportsBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SportsBook.m; path = Main/SportsBook.m; sourceTree = "<group>"; };
+		73A7FA6318BDE8A400054B2A /* HallofGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HallofGame.h; path = Main/HallofGame.h; sourceTree = "<group>"; };
+		73A7FA6418BDE8A400054B2A /* HallofGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HallofGame.m; path = Main/HallofGame.m; sourceTree = "<group>"; };
+		73A7FA6718BDEDDF00054B2A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = API/SWRevealViewController.h; sourceTree = "<group>"; };
+		73A7FA6818BDEDDF00054B2A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = API/SWRevealViewController.m; sourceTree = "<group>"; };
+		73A7FA6B18BDFC5A00054B2A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = Navigation/SidebarViewController.h; sourceTree = "<group>"; };
+		73A7FA6C18BDFC5A00054B2A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = Navigation/SidebarViewController.m; sourceTree = "<group>"; };
 		73A7FA6E18BDFCBA00054B2A /* bookmark_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bookmark_photo.jpg; path = "../Snippets/SidebarDemo 3/SidebarDemo/bookmark_photo.jpg"; sourceTree = "<group>"; };
 		73A7FA6F18BDFCBA00054B2A /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark.png; path = "../Snippets/SidebarDemo 3/SidebarDemo/bookmark.png"; sourceTree = "<group>"; };
 		73A7FA7018BDFCBB00054B2A /* calendar_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calendar_photo.jpg; path = "../Snippets/SidebarDemo 3/SidebarDemo/calendar_photo.jpg"; sourceTree = "<group>"; };
@@ -320,10 +320,10 @@
 		73A7FA7F18BDFCBB00054B2A /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wishlist.png; path = "../Snippets/SidebarDemo 3/SidebarDemo/wishlist.png"; sourceTree = "<group>"; };
 		73A7FA9318BE19D400054B2A /* checkInbutton.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkInbutton.fw.png; sourceTree = "<group>"; };
 		73A7FA9418BE19D400054B2A /* checkInbutton2.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkInbutton2.fw.png; sourceTree = "<group>"; };
-		73A7FA9818BE1D6D00054B2A /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "45-movie-1.png"; path = "../../../Icons/favIcons/glyphish/45-movie-1.png"; sourceTree = "<group>"; };
-		73A7FA9918BE1D6D00054B2A /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "85-trophy.png"; path = "../../../Icons/favIcons/glyphish/85-trophy.png"; sourceTree = "<group>"; };
-		73A7FA9A18BE1D6D00054B2A /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "122-stats.png"; path = "../../../Icons/favIcons/glyphish/122-stats.png"; sourceTree = "<group>"; };
-		73A7FA9B18BE1D6D00054B2A /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "123-id-card.png"; path = "../../../Icons/favIcons/glyphish/123-id-card.png"; sourceTree = "<group>"; };
+		73A7FA9818BE1D6D00054B2A /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-movie-1.png"; sourceTree = "<group>"; };
+		73A7FA9918BE1D6D00054B2A /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
+		73A7FA9A18BE1D6D00054B2A /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
+		73A7FA9B18BE1D6D00054B2A /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
 		73A7FAA118BE251C00054B2A /* 1Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Star.png; sourceTree = "<group>"; };
 		73A7FAA218BE251C00054B2A /* 1Star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Star@2x.png"; sourceTree = "<group>"; };
 		73A7FAA318BE251C00054B2A /* 1StarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1StarSmall.png; sourceTree = "<group>"; };
@@ -348,10 +348,10 @@
 		73A7FAB618BE251C00054B2A /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
 		73A7FAB718BE251C00054B2A /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
 		73A7FAB818BE251C00054B2A /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
-		73A7FAD118BE257000054B2A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = "../../Example Code/Ratings-2/Ratings/Player.h"; sourceTree = "<group>"; };
-		73A7FAD218BE257000054B2A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = "../../Example Code/Ratings-2/Ratings/Player.m"; sourceTree = "<group>"; };
-		73A7FAD318BE257000054B2A /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerCell.h; path = "../../Example Code/Ratings-2/Ratings/PlayerCell.h"; sourceTree = "<group>"; };
-		73A7FAD418BE257000054B2A /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerCell.m; path = "../../Example Code/Ratings-2/Ratings/PlayerCell.m"; sourceTree = "<group>"; };
+		73A7FAD118BE257000054B2A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Players/Player.h; sourceTree = "<group>"; };
+		73A7FAD218BE257000054B2A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Players/Player.m; sourceTree = "<group>"; };
+		73A7FAD318BE257000054B2A /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerCell.h; path = Players/PlayerCell.h; sourceTree = "<group>"; };
+		73A7FAD418BE257000054B2A /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerCell.m; path = Players/PlayerCell.m; sourceTree = "<group>"; };
 		73BE839F18C2E97300286634 /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dots.png; path = "retina-icons/png/dots.png"; sourceTree = "<group>"; };
 		73BE83A018C2E97300286634 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = "retina-icons/png/list.png"; sourceTree = "<group>"; };
 		73BE83A318C2F9F000286634 /* backward2844.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backward2844.fw.png; sourceTree = "<group>"; };
@@ -481,13 +481,16 @@
 				73BE83A618C2F9F000286634 /* list5144.fw.png */,
 				73BE839F18C2E97300286634 /* dots.png */,
 				73BE83A018C2E97300286634 /* list.png */,
+				73A7FA9818BE1D6D00054B2A /* 45-movie-1.png */,
+				73A7FA9918BE1D6D00054B2A /* 85-trophy.png */,
+				73A7FA9A18BE1D6D00054B2A /* 122-stats.png */,
+				73A7FA9B18BE1D6D00054B2A /* 123-id-card.png */,
 				73A7FA3B18BDC12A00054B2A /* SearchBarIcons */,
 				73A7FAA018BE251C00054B2A /* Images */,
 				73A7FA9218BDFCDD00054B2A /* Sidebar */,
 				73A7EFE918B4960F00054B2A /* CordanoPics */,
 			);
-			name = Icons;
-			path = ../../Icons;
+			path = Icons;
 			sourceTree = "<group>";
 		};
 		73A7EFE918B4960F00054B2A /* CordanoPics */ = {
@@ -544,7 +547,8 @@
 		73A7FA0E18BC384400054B2A /* API */ = {
 			isa = PBXGroup;
 			children = (
-				73A7FA6618BDEDBC00054B2A /* SWRevealViewController */,
+				73A7FA6718BDEDDF00054B2A /* SWRevealViewController.h */,
+				73A7FA6818BDEDDF00054B2A /* SWRevealViewController.m */,
 				73A7F9FB18BC380900054B2A /* PersistencyManager.h */,
 				73A7F9FC18BC380900054B2A /* PersistencyManager.m */,
 				73A7F9F618BC380900054B2A /* HTTPClient.h */,
@@ -695,16 +699,6 @@
 			name = Main;
 			sourceTree = "<group>";
 		};
-		73A7FA6618BDEDBC00054B2A /* SWRevealViewController */ = {
-			isa = PBXGroup;
-			children = (
-				73A7FA6718BDEDDF00054B2A /* SWRevealViewController.h */,
-				73A7FA6818BDEDDF00054B2A /* SWRevealViewController.m */,
-			);
-			name = SWRevealViewController;
-			path = ../../Snippets/SidebarDemo/SidebarDemo/SWRevealViewController;
-			sourceTree = "<group>";
-		};
 		73A7FA6A18BDFC1500054B2A /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,10 +736,6 @@
 		73A7FAA018BE251C00054B2A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				73A7FA9818BE1D6D00054B2A /* 45-movie-1.png */,
-				73A7FA9918BE1D6D00054B2A /* 85-trophy.png */,
-				73A7FA9A18BE1D6D00054B2A /* 122-stats.png */,
-				73A7FA9B18BE1D6D00054B2A /* 123-id-card.png */,
 				73A7FAA118BE251C00054B2A /* 1Star.png */,
 				73A7FAA218BE251C00054B2A /* 1Star@2x.png */,
 				73A7FAA318BE251C00054B2A /* 1StarSmall.png */,
@@ -771,8 +761,7 @@
 				73A7FAB718BE251C00054B2A /* Players.png */,
 				73A7FAB818BE251C00054B2A /* Players@2x.png */,
 			);
-			name = Images;
-			path = "../Example Code/Ratings-2/Images";
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

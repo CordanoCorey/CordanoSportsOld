@@ -817,7 +817,11 @@ a#my-inventory {
 #ingame #game-metrics .block {
 	float:left;
 	padding:10px;
+<<<<<<< HEAD
 	font-size:12px;
+=======
+	font-size:
+>>>>>>> FETCH_HEAD
 }
 #ingame #game-metrics .title {
 	font-size:12px;

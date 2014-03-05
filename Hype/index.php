@@ -6,7 +6,7 @@
     ###INCLUDE PAGE-SPECIFIC STYLE SHEETS HERE###
     
     //Update session info
-    $_SESSION["activeController"]="HypeViewController";
+    $_SESSION["activeController"]="HypeController";
     
     //Include API access point to finish processing this request
     include_once "apiAccess.php";

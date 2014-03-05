@@ -6,7 +6,7 @@
     ###INCLUDE PAGE-SPECIFIC STYLE SHEETS HERE###
     
     //Update session info
-    $_SESSION["activeController"]="GamesViewController";
+    $_SESSION["activeController"]="GamesController";
     
     //Include API access point to finish processing this request
     include_once "apiAccess.php";

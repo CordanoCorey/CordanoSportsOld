@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include 'includes/meta.php'; ?>
 <body>
 
@@ -67,7 +66,6 @@
 <script type="text/javascript" src="js/initialize.js"></script>
 
 </body>
-=======
 <?php include 'includes/meta.php'; ?>
 <body>
 
@@ -136,5 +134,4 @@
 <script type="text/javascript" src="js/initialize.js"></script>
 
 </body>
->>>>>>> FETCH_HEAD
 </html>

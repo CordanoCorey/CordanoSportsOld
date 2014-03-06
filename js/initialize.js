@@ -36,6 +36,6 @@
 	 });
 	 
 // Ticker Initialize
-	$(function(){
-		$("ul#ticker").liScroll();
-	}); 
+	//$(function(){
+		//$("ul#ticker").liScroll();
+	//}); 

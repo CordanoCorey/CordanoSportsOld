@@ -29,7 +29,7 @@
                         </form>
                     </div>
                     <div class="survey-block">
-                    	<h3>How long with LeShawn Jackson be out in the 2014-15 season?</h3>
+                    	<h3>How long with Desean Jackson be out in the 2014-15 season?</h3>
                     	<form action="" method="post" id="post-survey">
                         	<input type="radio" name="survey" value="A"> A
                             <input type="radio" name="survey" value="B"> B

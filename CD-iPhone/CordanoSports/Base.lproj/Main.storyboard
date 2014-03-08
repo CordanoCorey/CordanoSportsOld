@@ -36,7 +36,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Hype" id="AXE-dj-0MU">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="gKs-7q-528"/>
-                        <barButtonItem key="rightBarButtonItem" image="share.png" id="il6-3d-6f9">
+                        <barButtonItem key="rightBarButtonItem" image="Avatar@2x.png" id="il6-3d-6f9">
                             <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
@@ -80,7 +80,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Teams" id="1TX-SI-YvM">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="fcs-Os-oAb"/>
-                        <barButtonItem key="rightBarButtonItem" image="star_24.png" id="Z1u-QE-mTh"/>
+                        <barButtonItem key="rightBarButtonItem" image="Avatar@2x.png" id="Z1u-QE-mTh"/>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="fcs-Os-oAb" id="Zlz-qd-6gs"/>
@@ -141,7 +141,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Leagues" id="iLJ-Qk-JKb">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="6t0-Sp-ljj"/>
-                        <barButtonItem key="rightBarButtonItem" image="text-list.png" id="ZC4-Qa-r4k"/>
+                        <barButtonItem key="rightBarButtonItem" image="Avatar@2x.png" id="ZC4-Qa-r4k"/>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="6t0-Sp-ljj" id="FJy-6z-Rwk"/>
@@ -538,7 +538,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Players" id="6MB-kM-LIw">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="M0x-32-L9m"/>
-                        <barButtonItem key="rightBarButtonItem" image="app_24.png" id="szf-z4-40k"/>
+                        <barButtonItem key="rightBarButtonItem" image="Avatar@2x.png" id="szf-z4-40k"/>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="M0x-32-L9m" id="SRU-Q1-og0"/>
@@ -679,7 +679,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Games" id="cpg-GA-rZj">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="iCw-3a-NWt"/>
-                        <barButtonItem key="rightBarButtonItem" image="gear_24.png" id="DOZ-HB-Bvh"/>
+                        <barButtonItem key="rightBarButtonItem" image="Avatar@2x.png" id="DOZ-HB-Bvh"/>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="iCw-3a-NWt" id="BCs-2K-f9S"/>
@@ -1234,21 +1234,17 @@
         <image name="122-stats.png" width="27" height="19"/>
         <image name="45-movie-1.png" width="19" height="25"/>
         <image name="85-trophy.png" width="24" height="24"/>
-        <image name="app_24.png" width="24" height="24"/>
+        <image name="Avatar@2x.png" width="28" height="20"/>
         <image name="bookmark.png" width="1024" height="1024"/>
         <image name="calendar.png" width="1024" height="1024"/>
         <image name="checkInbutton2.fw.png" width="108" height="30"/>
         <image name="clipboard_full.png" width="48" height="48"/>
         <image name="comments.png" width="1024" height="1024"/>
         <image name="fire.png" width="30" height="30"/>
-        <image name="gear_24.png" width="24" height="24"/>
         <image name="map.png" width="1024" height="1024"/>
         <image name="menu.png" width="28" height="20"/>
         <image name="news.png" width="1024" height="1024"/>
-        <image name="share.png" width="30" height="30"/>
-        <image name="star_24.png" width="24" height="24"/>
         <image name="tag.png" width="1024" height="1024"/>
-        <image name="text-list.png" width="30" height="30"/>
         <image name="user.png" width="48" height="48"/>
         <image name="user_group.png" width="48" height="48"/>
         <image name="wishlist.png" width="1024" height="1024"/>

@@ -155,6 +155,13 @@
 		73BE83B218C3046A00286634 /* app_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE83B118C3046A00286634 /* app_24.png */; };
 		73BE83B518C305F900286634 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE83B318C305F900286634 /* share.png */; };
 		73BE83B618C305F900286634 /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE83B418C305F900286634 /* text-list.png */; };
+		73BE8F1418C8722600286634 /* Avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F0D18C8722600286634 /* Avatar@2x.png */; };
+		73BE8F1518C8722600286634 /* Filter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F0E18C8722600286634 /* Filter@2x.png */; };
+		73BE8F1618C8722600286634 /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F0F18C8722600286634 /* Folder@2x.png */; };
+		73BE8F1718C8722600286634 /* Grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F1018C8722600286634 /* Grid@2x.png */; };
+		73BE8F1818C8722600286634 /* Playlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F1118C8722600286634 /* Playlist@2x.png */; };
+		73BE8F1918C8722600286634 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F1218C8722600286634 /* Settings@2x.png */; };
+		73BE8F1A18C8722600286634 /* Sort-Descending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73BE8F1318C8722600286634 /* Sort-Descending@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +361,13 @@
 		73BE83B118C3046A00286634 /* app_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_24.png; path = "TWG Retina Icons/app_24.png"; sourceTree = "<group>"; };
 		73BE83B318C305F900286634 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "iconbeast-lite 2/iconbeast lite - png/share.png"; sourceTree = "<group>"; };
 		73BE83B418C305F900286634 /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-list.png"; path = "iconbeast-lite 2/iconbeast lite - png/text-list.png"; sourceTree = "<group>"; };
+		73BE8F0D18C8722600286634 /* Avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Avatar@2x.png"; sourceTree = "<group>"; };
+		73BE8F0E18C8722600286634 /* Filter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filter@2x.png"; sourceTree = "<group>"; };
+		73BE8F0F18C8722600286634 /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folder@2x.png"; sourceTree = "<group>"; };
+		73BE8F1018C8722600286634 /* Grid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grid@2x.png"; sourceTree = "<group>"; };
+		73BE8F1118C8722600286634 /* Playlist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Playlist@2x.png"; sourceTree = "<group>"; };
+		73BE8F1218C8722600286634 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings@2x.png"; sourceTree = "<group>"; };
+		73BE8F1318C8722600286634 /* Sort-Descending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sort-Descending@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +473,7 @@
 		73A7EFE618B4960F00054B2A /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				73BE8F0C18C8722600286634 /* My Icons */,
 				73BE83B318C305F900286634 /* share.png */,
 				73BE83B418C305F900286634 /* text-list.png */,
 				73BE83B118C3046A00286634 /* app_24.png */,
@@ -748,6 +763,20 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		73BE8F0C18C8722600286634 /* My Icons */ = {
+			isa = PBXGroup;
+			children = (
+				73BE8F0D18C8722600286634 /* Avatar@2x.png */,
+				73BE8F0E18C8722600286634 /* Filter@2x.png */,
+				73BE8F0F18C8722600286634 /* Folder@2x.png */,
+				73BE8F1018C8722600286634 /* Grid@2x.png */,
+				73BE8F1118C8722600286634 /* Playlist@2x.png */,
+				73BE8F1218C8722600286634 /* Settings@2x.png */,
+				73BE8F1318C8722600286634 /* Sort-Descending@2x.png */,
+			);
+			path = "My Icons";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -824,6 +853,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BE8F1518C8722600286634 /* Filter@2x.png in Resources */,
 				73A7FA4418BDC12A00054B2A /* search-icon.png in Resources */,
 				73A7FACB18BE251C00054B2A /* 5StarsSmall.png in Resources */,
 				73A7F50218B4961300054B2A /* Cordano-IN-GAME.jpg in Resources */,
@@ -845,6 +875,7 @@
 				73BE83AA18C2F9F000286634 /* list5144.fw.png in Resources */,
 				73BE83B518C305F900286634 /* share.png in Resources */,
 				73A7F50018B4961300054B2A /* Cordano-HOME (1).jpg in Resources */,
+				73BE8F1618C8722600286634 /* Folder@2x.png in Resources */,
 				73A7FAD018BE251C00054B2A /* Players@2x.png in Resources */,
 				73BE83A218C2E97300286634 /* list.png in Resources */,
 				73A7FA4318BDC12A00054B2A /* close-icon@2x.png in Resources */,
@@ -855,6 +886,7 @@
 				73BE83A818C2F9F000286634 /* dots8822.fw.png in Resources */,
 				73A7FABD18BE251C00054B2A /* 2Stars.png in Resources */,
 				73BE83A118C2E97300286634 /* dots.png in Resources */,
+				73BE8F1418C8722600286634 /* Avatar@2x.png in Resources */,
 				73A7F50318B4961300054B2A /* Cordano-INSIDE-HOME.jpg in Resources */,
 				73A7F4FD18B4961300054B2A /* Cordano-business-card-front.pdf in Resources */,
 				73A7F50C18B4961300054B2A /* Jan.PNG in Resources */,
@@ -866,6 +898,7 @@
 				73A7E8FD18B05B9900054B2A /* InfoPlist.strings in Resources */,
 				73A7F4ED18B4961300054B2A /* 003.JPG in Resources */,
 				73A7FA8B18BDFCBB00054B2A /* menu@2x.png in Resources */,
+				73BE8F1A18C8722600286634 /* Sort-Descending@2x.png in Resources */,
 				73A7F4FC18B4961300054B2A /* Cordano-business-card-front-original.pdf in Resources */,
 				73A7F51118B4961300054B2A /* sidemenu.PNG in Resources */,
 				73A7FA8A18BDFCBB00054B2A /* menu.png in Resources */,
@@ -887,6 +920,7 @@
 				73A7F50118B4961300054B2A /* Cordano-HOME.jpg in Resources */,
 				73A7F50E18B4961300054B2A /* March.PNG in Resources */,
 				73A7F4F618B4961300054B2A /* 042.PNG in Resources */,
+				73BE8F1818C8722600286634 /* Playlist@2x.png in Resources */,
 				73A7FA8318BDFCBB00054B2A /* calendar.png in Resources */,
 				73A7FA9D18BE1D6D00054B2A /* 85-trophy.png in Resources */,
 				73A7F4F018B4961300054B2A /* 031.JPG in Resources */,
@@ -907,6 +941,7 @@
 				73A7F4FF18B4961300054B2A /* Cordano-FANBOT-SERP.jpg in Resources */,
 				73A7FAC918BE251C00054B2A /* 5Stars.png in Resources */,
 				73A7FA8118BDFCBB00054B2A /* bookmark.png in Resources */,
+				73BE8F1718C8722600286634 /* Grid@2x.png in Resources */,
 				73A7F4F318B4961300054B2A /* 036 (2).JPG in Resources */,
 				73A7FAC618BE251C00054B2A /* 4Stars@2x.png in Resources */,
 				73A7F4F818B4961300054B2A /* CD1.PNG in Resources */,
@@ -926,6 +961,7 @@
 				73A7F51018B4961300054B2A /* prjs.PNG in Resources */,
 				73A7F50A18B4961300054B2A /* ingame2.PNG in Resources */,
 				73A7F4FB18B4961300054B2A /* Cordano-business-card-front-3.pdf in Resources */,
+				73BE8F1918C8722600286634 /* Settings@2x.png in Resources */,
 				73A7F50818B4961300054B2A /* heading.PNG in Resources */,
 				73A7FABA18BE251C00054B2A /* 1Star@2x.png in Resources */,
 			);

@@ -9,9 +9,9 @@
         </div>
         <ul id="home-nav">
         	<li class="sign-in"><a href="#">Sign in/Create account</a></li>
+            <li><a href="#">Join the game with InGame</a></li>
             <li><a href="#">Create a Fantasy League</a></li>
-            <li><a href="#">Follow a game with InGame</a></li>
-            <li><a href="#">Intramural Leagues</a></li>
+            <li><a href="#">Start following your favorite teams</a></li>
             <li><a href="#">Track your sports career</a></li>
         </ul>
     </div>

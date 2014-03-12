@@ -392,6 +392,27 @@ ul#sidebar-nav li a.in-game {
 	border:1px solid #ffc600;
 }
 
+ul#sidebar-nav li a.appLink {
+	padding:7px;
+	background:rgba(0,0,0,0.2);
+	color:#fff;
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	text-shadow:0 0 3px #000;
+	text-decoration:none;
+	text-transform:uppercase;
+	border:1px solid #fff;
+	font-weight:normal;
+	background: #828282; /* Old browsers */
+	background: -moz-linear-gradient(top, #adadac 0%, #afafaf 50%, #828282 51%, #828282 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#adadac), color-stop(50%,#afafaf), color-stop(51%,#828282), color-stop(100%,#828282)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #adadac 0%,#afafaf 50%,#828282 51%,#828282 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #adadac 0%,#afafaf 50%,#828282 51%,#828282 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #adadac 0%,#afafaf 50%,#828282 51%,#828282 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #adadac 0%,#afafaf 50%,#828282 51%,#828282 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadac', endColorstr='#828282',GradientType=0 ); /* IE6-9 */
+}
+
 #my-apps {
 	background:rgba(0,0,0,0.2);
 	overflow:auto;
@@ -507,10 +528,11 @@ a#my-inventory {
 	margin-right:20px;
 	text-transform:uppercase;
 }
-
+#my-hype-flyout,
 #my-leagues-flyout,
 #my-teams-flyout,
 #my-players-flyout,
+#my-games-flyout,
 #my-inventory-flyout {
 	background:rgba(0,0,0,0.8);
 	width:758px;

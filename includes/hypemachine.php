@@ -1,56 +1,202 @@
-            <div id="hypemachine">
-            	<span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span>
-            </div>
-            <div id="hypemachine">
-            	<div style="overflow:auto;"><span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span></div>
-                <div id="hypemachine-content">
-                	<p>Sausage shankle jerky meatball leberkas chuck turkey beef short loin ham tongue shank frankfurter. Kielbasa tongue jerky hamburger, beef andouille prosciutto salami. Brisket strip steak chuck, meatball sirloin tongue cow pastrami shankle spare ribs. Strip steak turkey tongue shoulder meatloaf sirloin bacon tail venison. Doner pastrami filet mignon, tongue hamburger short ribs chicken ham hock tri-tip jowl pork loin prosciutto. Short loin beef ribs corned beef cow salami.</p>
-                    <div class="clear">
-                    	<a href="#" id="comment-count">2 Comments</a><a href="#" class="social-icon"><img src="images/icon-facebook.png" /></a><a href="#" class="social-icon"><img src="images/icon-twitter.png" /></a>
-                    </div>
-                    <div class="comment-block">
-                    	<div class="clear">
-                        	<a href="#"><img src="images/avatar.jpg" class="avatar" /><span class="user-name">Mr_Football123</span></a>
-                        </div>
-                        <div class="comment-bubble">
-                        	This is a sample comment meatball leberkas chuck turkey beef short loin ham tongue shank frankfurter.
-                        </div>
-                    </div>
-                    <div class="comment-block">
-                    	<div class="clear">
-                        	<a href="#"><img src="images/avatar.jpg" class="avatar" /><span class="user-name">Mr_Football123</span></a>
-                        </div>
-                        <div class="comment-bubble">
-                        	This is a sample comment meatball leberkas chuck turkey beef short loin ham tongue shank frankfurter.
-                        </div>
-                        <form action="" method="post" id="post-comment">
-                        	<textarea></textarea><br />
-                            <input type="submit" class="button" value="Comment">
-                        </form>
-                    </div>
-                    <div class="survey-block">
-                    	<h3>How long with Desean Jackson be out in the 2014-15 season?</h3>
-                    	<form action="" method="post" id="post-survey">
-                        	<input type="radio" name="survey" value="A"> A
-                            <input type="radio" name="survey" value="B"> B
-                            <input type="radio" name="survey" value="C"> C
-                            <input type="radio" name="survey" value="D"> D
-                            <input type="radio" name="survey" value="E"> E
-                            <br />
-                            <input type="submit" class="button" value="Vote">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div id="hypemachine">
-            	<span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span>
-            </div>
-            <div id="hypemachine">
-            	<span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span>
-            </div>
-            <div id="hypemachine">
-            	<span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span>
-            </div>
-            <div id="hypemachine">
-            	<span class="headline">Kobe Bryant or Kobe Beef?</span><span class="source">(CNN) 2/14/14</span>
-            </div>
+    <?php
+        include "includes/templates.php";
+ 	
+        Class Router
+        {
+            /*
+            * @param Registry
+            */
+            protected $registry;
+            public $expectedGet=[];
+            public $expectedPost=[];
+            public function __construct($get,$post=NULL){
+                
+            }
+            /*
+             * Load the correct controller for processing the request.
+             * 
+             * @return CDController
+             */
+            public function route(){
+                return new HypeController();
+            }
+            // SWAPS THE BACKGROUND IMAGE DEPENDING ON PAGE URI
+            function curPageURL() {
+                $page = $_SERVER['REQUEST_URI'];
+                if($page == '/' && '/index.php') 
+                {
+                    return 'background-image:url(images/bg-signed-in.jpg);';
+                }
+                elseif($page == '/ingame.php') {
+                    return 'background-image:url(images/bg-ingame.jpg);';
+                }
+                elseif($page == '/live.php') {
+                    return 'background-image:url(images/bg-live.jpg);';
+                }
+                elseif($page == '/fantasy.php') {
+                    return 'background-image:url(images/bg-fantasy.jpg);';
+                }
+                elseif($page == '/fandom.php') {
+                    return 'background-image:url(images/bg-fandom.jpg);';
+                }
+                elseif($page == '/lifestyle.php') {
+                    return 'background-image:url(images/bg-lifestyle.jpg);';
+                }
+                else
+                {
+                    return 'background-image:url(images/bg-index.jpg);';
+                }
+            }
+            
+            function getPageTitle(){
+                return "Cordano :: Believe the Hype";
+            }
+            
+            public function navigate($navItem)
+            {
+                switch($navItem){
+                    case "apps":
+                        return "App 1 <br> App 2";
+                    default:
+                        break;
+                }
+            }
+            /*
+             * 
+             */
+            public function updateSession($actionResponse)
+            {
+                $_SESSION["background"]=$this->curPageURL();
+                $_SESSION["title"]=$this->getPageTitle();
+                $_SESSION["apps"]=$this->navigate("apps");
+            }
+            /*
+            * 
+            */
+           public function prepareRequest($getRequest,$postRequest)
+           {
+               foreach($this->expectedGet as $key){
+                   if(!empty($getRequest[$key])){
+                       ${key}=$getRequest[$key];
+                   }
+                   else{
+                       ${key}=NULL;
+                   }
+               }
+
+               foreach($this->expectedPost as $key){
+                   if(!empty($postRequest[$key])){
+                       ${key}=$postRequest[$key];
+                   }
+                   else{
+                       ${key}=NULL;
+                   }
+               }
+
+           }
+        }
+        //Displayable View Class
+        Class HypeView{
+            private $html="";
+            private $hype;
+            private $hypeCellView;
+            private $controller;
+            public function __construct($hype,$controller)
+            {
+                $this->hypeCellView=new HypePreview($hype);
+                $this->hype=$hype;
+                $this->controller=$controller;
+                $this->reloadView();
+            }
+            public function reloadView()
+            {
+                $this->html = CDTemplate::pollView($this->hypeCellView);
+                $this->html.="<br>";
+                //$this->html.=CDTemplate::preview();
+            }
+            public function render(){
+                if($this->hype){
+                    echo $this->html;
+                }
+                else{
+                    echo "Not Available";
+                }
+            }
+            public function observe()
+            {
+                include_once "includes/Observer.php";
+                $obs=new Observer();
+                echo $obs->jsInit();
+            }
+            
+            public function deploy()
+            {
+                $_SESSION["view"]=$this;
+                $this->controller->index();
+            }
+        }
+          
+        //View Helper Class (has corresponding template)
+        Class HypeCellView{
+            public $headline="Default Title";
+            public $source;
+            public $date;
+            public function __construct($hype)
+            {
+                foreach($hype->fields as $key=>$value){
+                    if(property_exists(get_class($this),$key)){
+                        $this->$key=$value;
+                    }
+                }
+            }
+        }
+        
+        Class HypePreview extends HypeCellView{
+            
+        }
+      
+        Class HypeDetail{
+            
+        }
+        
+        Class HypeOverview{
+            
+        }
+        
+        //Controller
+        Class HypeController{
+            public $hype;
+            
+            public function __construct()
+            {
+                $this->hype=new Hype();
+                
+            }
+            public function invoke(){
+                return "index";
+            }
+            public function processRequest()
+            {
+                if($this->hype){
+                    return new HypeView($this->hype,$this);
+                }
+            }
+            public function index()
+            {
+                return "home.php";
+            }
+        }
+        
+        //Model
+        Class Hype{
+            public $fields=[];
+            
+            public function __construct()
+            {
+                $this->fields["headline"]="Observer Test";
+                $this->fields["source"]="NBC";
+                $this->fields["date"]=432423;
+            }
+        }
+        
+    ?>

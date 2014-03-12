@@ -1,6 +1,7 @@
 <?php include 'includes/meta.php'; ?>
-<body>
 
+<body>
+    
 <?php include 'includes/header.php'; ?>
 <div class="container">
 	<?php include 'includes/sidebar.php'; ?>
@@ -12,19 +13,24 @@
         
      <div class="content">
      	<div class="left-col">	
-			<?php include 'includes/hypemachine.php'; ?>
+            <?php
+                $_SESSION["view"]->render();
+            ?>
         </div>
         <div class="right-col">
         	<img src="images/ad-placeholder.jpg" />
         </div>
-     </div>   
+    </div>   
         
     </div>
 </div>
 
 <?php include 'includes/footer.php'; ?>
 
-<script type="text/javascript" src="js/initialize.js"></script>
-
 </body>
+<script type="text/javascript">
+    <?php
+        $_SESSION["view"]->observe();
+    ?>
+</script> 
 </html>

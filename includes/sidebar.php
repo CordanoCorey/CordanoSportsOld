@@ -8,12 +8,14 @@
         </ul>
         
         <div id="my-apps">
-        	<div class="titlebar">
+            <div class="titlebar">
             	<div class="title">My Apps</div>
                 <a class="button-add" href="#">ADD+</a>                
             </div>
             <div class="apps">
-            	This is where the apps go.
+                <?php 
+                    echo Widget::appMenu($_SESSION["registry"]->nav["apps"]);
+                ?>
             </div>
         </div>
     </div>

@@ -53,7 +53,7 @@
         public function invoke(){
             //$response = $this->model->$this->request->action();
             //$this->model=$response;
-            $name=["National Basketball Association (NBA)","National Football League (NFL)","Carlisle Army War College"];
+            $name=["National Basketball Association (NBA)","National Football League (NFL)","Carlisle Army War College Intramurals"];
             $status=["Pro Basketball","Pro Football","Rec Basketball"];
             $leagues[]=new League(1,$name[0],$status[0]);
             $leagues[]=new League(2,$name[1],$status[1]);

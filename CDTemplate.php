@@ -6,7 +6,7 @@
      * @Version 1.0
      * @Author Corey Gelbaugh
      */
-    Class CDTemplate
+    Class Template
     {
         
         /*

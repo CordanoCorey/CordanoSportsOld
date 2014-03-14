@@ -24,6 +24,8 @@
         public function mainController($navElement=NULL)
         {
             $layout="home.php";
+            $title="Cordano :: Believe the Hype";
+            $background="background-image:url(images/bg-signed-in.jpg)";
             $views=["Hype","Leagues","Teams","Players","Games"];
             $feature=NULL;
             $featureApp="Hype Machine";
@@ -35,6 +37,8 @@
             else{
                 return [
                     "layout"=>$layout,
+                    "background"=>$background,
+                    "title"=>$title,
                     "views"=>$views,
                     "feature"=>$feature,
                     "featureApp"=>$featureApp,

@@ -23,7 +23,7 @@
         }
         public function render()
         {
-            return \Template::cellView($this);
+            return \CDTemplate::cellView($this);
         }
     }
 ?>

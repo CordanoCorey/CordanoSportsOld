@@ -7,7 +7,7 @@
      * @Version 1.0
      * @Author Corey Gelbaugh
      */
-    Class Widget
+    Class CDWidget
     {
         
         /*

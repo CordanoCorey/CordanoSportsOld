@@ -1,5 +1,5 @@
 <?php 
-    namespace Application\ModelView;
+    namespace application\view\model\collections;
     /*
      * Class for viewing collections of leagues.
      * 
@@ -28,10 +28,10 @@
         }
         public function formatRowView()
         {
-            return "\Application\View\CellView";
+            return "application\view\CellView";
         }
         
-        public function getRows()
+        public function getRowData()
         {
             foreach($this->id as $id){
                 $rows[]=[

@@ -18,7 +18,7 @@
             ?>
         </div>
         <div class="right-col">
-        	<img src="images/ad-placeholder.jpg" />
+        	<img src="assets/images/ad-placeholder.jpg" />
         </div>
     </div>   
         

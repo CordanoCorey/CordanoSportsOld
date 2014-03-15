@@ -1,5 +1,5 @@
 <?php
-    namespace Application\View;
+    namespace application\view;
     /*
      * Class for displaying lists of views. Any class that utilizes this view 
      * adheres to the Listable protocol. 
@@ -22,8 +22,8 @@
         }
         public function render($show=TRUE)
         {
-            foreach($this->viewModel->getRows() as $row){
-            $rowView=new $this->rowTemplate($row);
+            foreach($this->viewModel->getRowData() as $row){
+            $rowView=new CellView($row);
                 $this->html .= $rowView->render();
             }
             

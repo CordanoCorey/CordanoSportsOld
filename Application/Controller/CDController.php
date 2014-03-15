@@ -1,9 +1,8 @@
 <?php
-    namespace Application\Controller;
-    use \Application\Model\Leagues\League as League;
-    use \Application\View\ListView as ListView;
-    use \Application\ModelView\LeaguesView as LeaguesView;
-    use \Application\View\CDView as CDView;
+    namespace application\controller;
+    use application\model\elements\leagues\League as League;
+    use \application\view\model\collections\LeaguesView as LeaguesView;
+    use \application\view\ListView as ListView;
     /*
      * Main Controller for incoming requests. 
      * 
@@ -53,11 +52,18 @@
         public function invoke(){
             //$response = $this->model->$this->request->action();
             //$this->model=$response;
-            $name=["National Basketball Association (NBA)","National Football League (NFL)","Carlisle Army War College Intramurals"];
-            $status=["Pro Basketball","Pro Football","Rec Basketball"];
+            $name=["National Basketball Association (NBA)",
+                        "National Football League (NFL)",
+                        "Carlisle Army War College Intramurals",
+                        "AAAA Mid-Penn Women's Basketball"];
+            $status=["Pro Basketball",
+                        "Pro Football",
+                        "Rec Basketball",
+                        "High School Basketball"];
             $leagues[]=new League(1,$name[0],$status[0]);
             $leagues[]=new League(2,$name[1],$status[1]);
             $leagues[]=new League(3,$name[2],$status[2]);
+            $leagues[]=new League(4,$name[3],$status[3]);
             $this->model=$leagues;
         }
         
@@ -67,10 +73,9 @@
          * 
          * @param bool $view
          */
-        public function processRequest($view=FALSE)
+        public function processRequest()
         {
-            $viewModel=new LeaguesView($this->model);
-            return new ListView($this,$viewModel);
+            return $this->renderView("LeaguesView","application\view\ListView");
             /*
             $viewModel=new $this->target($this->model);
             if($view){
@@ -89,10 +94,10 @@
         public function index()
         {
             if($this->request->loggedIn){
-                return "home.php";
+                return "layouts/home.php";
             }
             else{
-                return "main.php";
+                return "layouts/main.php";
             }
         }
         
@@ -100,10 +105,13 @@
          * Load the appropriate view for representing the response.
          * 
          * @param ViewModel $viewModel
+         * @return CDView
          */
-        public function view($viewModel)
+        public function renderView($viewModel,$view)
         {
-            return new CDView($this,$viewModel);
+            
+            $viewModel=new LeaguesView($this->model);
+            return new ListView($this,$viewModel);
         }
         
         /*

@@ -1,4 +1,5 @@
 <?php
+    namespace application\model\cxn\ext;
     /*
      * This class is responsible for accessing Sports Data's official
      * feeds using a production key and converting the XML data to PHP arrays
@@ -8,8 +9,7 @@
      * @Version 1.0
      * @Author Corey Gelbaugh
      */
-    Class StatsService
-    {
+    Class StatsService{
         private $Golf_Images_v1="sztrw7jbdmjyt5sw3wmfqhrv";
         private $Golf_RealTime_v1="sgf33d4tyx9bz6easp34ehen";
         private $Golf_v2="a7bhtym6nt2xt2gpzd4rspcp";
@@ -46,7 +46,5 @@
         private $NHL_Production_v2="3y5mz5p6x3ehfkzxzg7ss4y6";
         private $NHL_Production_v3="yr3mxwesxy7v7xwvegrz3ja8";
         private $NHL_RealTime_v3="yr3mxwesxy7v7xwvegrz3ja8";
-        
-   
+
     }
-?>

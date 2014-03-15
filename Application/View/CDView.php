@@ -1,5 +1,6 @@
 <?php
-    namespace Application\View;
+    namespace application\view;
+    //use application\view\js\CDObserver as CDObserver;
     /*
      * The CDView class implements the methods common to all Cordano views.
      * 
@@ -87,7 +88,7 @@
          */
         public function observe()
         {
-            $obs=new \Observer($this->controller->layout);
+            $obs=new \CDObserver($this->controller->layout);
             $this->js.=$obs->jsInit();
             //$js.=$obs->addListener($this->controller,$this->viewModel);
             echo $this->js;

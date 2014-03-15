@@ -1,5 +1,5 @@
 <?php 
-    namespace Application\Model\Leagues;
+    namespace application\model\elements\leagues;
     /*
      * 
      * 

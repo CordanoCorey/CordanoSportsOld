@@ -1,5 +1,6 @@
 <?php
-    namespace Application\Utilities;
+    namespace application\config;
+    //use \application\view\html\CDWidget as CDWidget;
     /*
      * This class is responsible for completely specifying the dynamic
      * structure of the site of the site for quick reference purposes so 
@@ -20,12 +21,13 @@
         public function __construct($call)
         {
             $this->nav=$this->$call();
+            //$_SESSION["apps"]=CDWidget::appMenu($_SESSION["registry"]->nav["apps"]);
         }
         public function mainController($navElement=NULL)
         {
-            $layout="home.php";
+            $layout="layouts/home.php";
             $title="Cordano :: Believe the Hype";
-            $background="background-image:url(images/bg-signed-in.jpg)";
+            $background="background-image:url(assets/images/bg-signed-in.jpg)";
             $views=["Hype","Leagues","Teams","Players","Games"];
             $feature=NULL;
             $featureApp="Hype Machine";

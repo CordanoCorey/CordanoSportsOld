@@ -1,5 +1,5 @@
     <a href="#" id="profile-block">
-    	<img src="images/profile-thumb-placeholder-50px.png" class="thumb" />
+    	<img src="assets/images/profile-thumb-placeholder-50px.png" class="thumb" />
         <!--<? /*<div class="username">BigGelby</div> */ ?>-->
         <div class="arrow"></div>
     </a>

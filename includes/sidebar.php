@@ -14,7 +14,7 @@
             </div>
             <div class="apps">
                 <?php 
-                    echo CDWidget::appMenu($_SESSION["registry"]->nav["apps"]);
+                    echo \CDWidget::appMenu($_SESSION["registry"]->nav["apps"]);
                 ?>
             </div>
         </div>

@@ -1,5 +1,5 @@
     <?php
-    //namespace application\view\html;
+    namespace application\view\html;
     /*
      * This class contains methods for all view Cordano Sports view templates. 
      * 

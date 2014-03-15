@@ -1,5 +1,6 @@
 <?php
-    namespace Application\View;
+    namespace application\view;
+    //use application\view\html\CDTemplate as CDTemplate;
     /*
      * Class for displaying simple cell views. Any class that utilizes this view 
      * adheres to the Cellular protocol. 

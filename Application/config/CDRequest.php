@@ -1,14 +1,13 @@
 <?php
-    namespace Application\Utilities;
+    namespace application\config;
     /*
      * 
      * 
-     * @Package Lib
+     * @Package Structs
      * @Version 1.0
      * @Author Corey Gelbaugh
      */
-     Class CDRequest
-     {
+     Class CDRequest{
         /*
         * @param User
         */
@@ -27,8 +26,7 @@
          */
         public $loggedIn=TRUE;
 
-        public function __construct($getRequest=[],$postRequest=[])
-        {
+        public function __construct($getRequest=[],$postRequest=[]){
             foreach($getRequest as $key=>$value){ 
                 if(property_exists(get_class($this),$key)){
                     $this->$key=$value;
@@ -41,4 +39,3 @@
             }
         }
      }
-?>

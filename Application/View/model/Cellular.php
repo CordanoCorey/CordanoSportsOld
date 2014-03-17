@@ -9,4 +9,5 @@ namespace application\view\model;
  */
 interface Cellular {
     public function getCellData();
+    public function clickCellAction();
 }

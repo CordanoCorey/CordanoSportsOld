@@ -1,30 +1,17 @@
 <?php 
     namespace application\view\model\collections;
+    use application\view\model\Deployable as Deployable;
+    
     /*
      * Class for viewing collections of teams.
      * 
-     * @package Teams
+     * @package teams
      * @version 1.0
      * @author coreygelbaugh
      */
-    Class TeamsView implements Listable
+    Class TeamsView extends CollectionView implements Deployable
     {
-        /*
-         * @param Team[]
-         */
-        private $teams;
-        
-        public function __construct($teams)
-        {
-            
-        }
-        public function formatRowView()
-        {
-            
-        }
-        
-        public function getRowData()
-        {
-            
-        }
+        public $context=NULL;
+        public $class="teams";
+        public $factor=NULL;
     }

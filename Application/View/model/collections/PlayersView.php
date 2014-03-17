@@ -1,30 +1,16 @@
 <?php 
     namespace application\view\model\collections;
+    use application\view\model\Deployable as Deployable;
     /*
      * Class for viewing collections of players.
      * 
-     * @package Players
+     * @package players
      * @version 1.0
      * @author coreygelbaugh
      */
-    Class PlayersView implements Listable
+    Class PlayersView extends CollectionView implements Deployable
     {
-        /*
-         * @param Player[]
-         */
-        private $players;
-        
-        public function __construct($players)
-        {
-            
-        }
-        public function formatRowView()
-        {
-            
-        }
-        
-        public function getRowData()
-        {
-            
-        }
+        public $context=NULL;
+        public $class="players";
+        public $factor=NULL;
     }

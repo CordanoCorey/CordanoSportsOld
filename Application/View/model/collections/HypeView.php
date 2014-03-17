@@ -1,30 +1,16 @@
 <?php 
     namespace application\view\model\collections;
+    use application\view\model\Deployable as Deployable;
     /*
      * Class for viewing collections of hype.
      * 
-     * @package Hype
+     * @package hype
      * @version 1.0
      * @author coreygelbaugh
      */
-    Class HypeView implements Collective,Listable
+    Class HypeView extends CollectionView implements Deployable
     {
-        /*
-         * @param Hype[]
-         */
-        private $hype;
-        
-        public function __construct($games)
-        {
-            
-        }
-        public function formatRowView()
-        {
-            
-        }
-        
-        public function getRowData()
-        {
-            
-        }
+        public $context=NULL;
+        public $class="hype";
+        public $factor=NULL;
     }

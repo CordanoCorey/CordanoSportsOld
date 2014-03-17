@@ -1,13 +1,13 @@
 <?php 
-namespace application\view\model\collections;
+namespace application\view\model;
 /**
 *
-* @package View
+* @package view
 * @author coreygelbaugh
 * @version 1.0
 * 
 */
-Interface Listable
+interface Listable
 {
     public function getRowData();
     public function renderRowView();

@@ -4,28 +4,35 @@
     use \application\view\model\collections\LeaguesView as LeaguesView;
     use \application\view\ListView as ListView;
     /*
-     * Main Controller for incoming requests. 
-     * 
-     * The controllers main jobs are to:
-     *      1. Invoke the model and call the request action.
-     *      2. Pass the updated domain state to the view model (which updates the application state).
-     *      3. Forward the updated application state to the client via the view.
-     *      4. Adhere to interface user event listening protocol.
-     */
+    * Main Controller for incoming requests. 
+    * 
+    * The controllers main jobs are to:
+    *      1. Invoke the model and call the request action.
+    *      2. Pass the updated domain state to the view model (which updates the application state).
+    *      3. Forward the updated application state to the client via the view.
+    *      4. Adhere to interface user event listening protocol.
+    * 
+    * @package main
+    * @author coreygelbaugh
+    * @version 1.0
+    */
     Class CDController
     {
-        public $background="bg-signed-in.jpg";
+        public $layout="layouts/main.php";
+        public $background="bg-index.jpg";
         public $title="Cordano :: Believe the Hype";
+        public $views=["question","answer"];
+        public $format=["json","scroll"];
         /*
          * @param User
          */
         protected $user;
         /*
-         * @param CDRequest
+         * @param UserRequest
          */
         protected $request;
         /*
-         * 
+         * @param Collectable[]
          */
         protected $model;
         /*
@@ -39,14 +46,16 @@
         /*
          * @param CDEngine
          */
-        private $CDEngine;
+        private $engine;
         
         /*
          * @param CDRequest $request
          */
-        public function __construct($request)
+        public function __construct($request,$engine)
         {
-            $this->request=$request;
+            $request->user=$this->user;
+            $request->sender=$this->sender;
+            $this->engine=$engine;
         }
         
         /*
@@ -119,4 +128,3 @@
             }
         }
     }
-?>

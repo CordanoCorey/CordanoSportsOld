@@ -1,6 +1,8 @@
 <?php
     namespace application\config;
+    use application\logic\CDEngine as CDEngine;
     use application\controller\CDController as CDController;
+    
     /*
      * The Router class takes a get request and a post request, instantiates a new CDRequest object, 
      * then loads the appropriate controller giving the CDRequest as an argument.
@@ -11,9 +13,13 @@
      */
      Class Router{            
         /*
+         * @param CDController
+         */
+        private $originController;
+        /*
          * @param string
          */
-        public $controller="CDController";
+        public $destinationController="CDController";
         /*
          * 
          */
@@ -22,11 +28,10 @@
         public function __construct($getRequest,$postRequest=NULL)
         {
             $this->request=$this->loadRequest($getRequest,$postRequest);
-            /*
             //Make sure the registry is set and up to date
             if(!isset($_SESSION["registry"])){
                $_SESSION["registry"]=new Registry("mainController");
-           }*/
+           }
            $_SESSION["registry"]=new Registry("mainController");
         }
         /*

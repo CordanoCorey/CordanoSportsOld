@@ -1,44 +1,16 @@
 <?php 
     namespace application\view\model\collections;
+    use application\view\model\Deployable as Deployable;
     /*
      * Class for viewing collections of leagues.
      * 
-     * @Package Leagues
-     * @Version 1.0
-     * @Author Corey Gelbaugh
+     * @package leagues
+     * @version 1.0
+     * @author coreygelbaugh
      */
-    Class LeaguesView implements Listable
+    Class LeaguesView extends CollectionView implements Deployable
     {
-        /*
-         * @param League[]
-         */
-        private $leagues;
-        public $id;
-        public $name;
-        public $status;
-        
-        public function __construct($leagues)
-        {
-            $this->leagues=$leagues;
-            foreach($this->leagues as $league){
-                $this->id[]=$league->idLeague;
-                $this->name[$league->idLeague]=$league->name;
-                $this->status[$league->idLeague]=$league->status;
-            }
-        }
-        public function formatRowView()
-        {
-            return "application\view\CellView";
-        }
-        
-        public function getRowData()
-        {
-            foreach($this->id as $id){
-                $rows[]=[
-                            "name"=>$this->name[$id],
-                            "status"=>$this->status[$id]
-                        ];
-            }
-            return $rows;
-        }
+        public $context=NULL;
+        public $class="leagues";
+        public $factor=NULL;
     }

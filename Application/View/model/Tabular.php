@@ -8,6 +8,6 @@ namespace application\view\model;
  * 
  */
 interface Tabular {
-    public function formatColumnView();
     public function getColumnData();
+    public function renderColumnView();
 }

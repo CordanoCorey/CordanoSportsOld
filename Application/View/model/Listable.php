@@ -9,6 +9,6 @@ namespace application\view\model\collections;
 */
 Interface Listable
 {
-    public function formatRowView();
     public function getRowData();
+    public function renderRowView();
 }

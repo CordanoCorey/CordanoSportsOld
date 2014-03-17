@@ -5,10 +5,15 @@ namespace application\model\elements;
 /**
  * Description of Player
  *
+ * @package Players
  * @author coreygelbaugh
  * @version 1.0
  */
-class Player implements Hierarchical,Connectable{
+class Player implements Axiomatic{
+    /*
+     * @param string[]      An array of player's documented factors.
+     */
+    public $factors;
     /*
      * @param string
      */
@@ -21,7 +26,10 @@ class Player implements Hierarchical,Connectable{
      * @param int
      */
     public $idPlayerverse;
-    
+    /*
+     * @param int
+     */
+    public $idPlayer;
     /*
      * @param Topic[]
      */
@@ -42,34 +50,10 @@ class Player implements Hierarchical,Connectable{
      * @param array     An array of field=value pairs.
      */
     protected $properties;
-    use DatabaseConnection;
+    use Properties;
     
     public function __construct()
     {
         $this->getStatus();
-    }
-    
-    /*
-     * 
-     */
-    public function getStatus()
-    {
-        
-    }
-    
-    /*
-     * 
-     */
-    public function getState()
-    {
-        
-    }
-    
-    /*
-     * Retrieve entire activity log for this player.
-     */
-    public function getSource()
-    {
-        
-    }     
+    }    
 }

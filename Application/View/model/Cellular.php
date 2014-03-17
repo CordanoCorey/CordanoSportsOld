@@ -8,6 +8,5 @@ namespace application\view\model;
  * 
  */
 interface Cellular {
-    public function formatCell();
     public function getCellData();
 }
